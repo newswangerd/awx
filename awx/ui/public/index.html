@@ -43,6 +43,7 @@
     <% if (process.env.NODE_ENV === 'production') { %>
       <style nonce="{{ csp_nonce }}">.app{height: 100%;}</style><div id="app" class="app"></div>
     <% } else { %>
+      <!-- {NAV} -->
       <div id="app" style="height: 100%"></div>
     <% } %>
   </body>
